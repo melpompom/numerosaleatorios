@@ -65,7 +65,7 @@ Jogar <input type="text" name="vezes" vezes o dado.>
    $tjogador += $vc;
    }
 
-   echo "\n<br>\n<font face='verdana' size='2' color='#000080'>\n<b>Total :" . $tjogador . "</b>\n</font>\n<br>\n<br>";
+   echo "\n<br><b>Total :" . $tjogador . "</b><br>";
 
    if ($tjogador <= $vezes*3){
    echo "<b>Que pena você perdeu.</b>";
