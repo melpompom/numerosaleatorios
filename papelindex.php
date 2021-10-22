@@ -70,10 +70,6 @@ if (($opcao==2)&&($comp==3)){
 if (($opcao==3)&&($comp==2)){
     $vence = $jogador;
     echo $vence;
-}
-if (($opcao==3)&&($comp==1)){
-    $vence = $pc;
-    echo $vence;
 } 
 ?>
 
